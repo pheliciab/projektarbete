@@ -1,6 +1,6 @@
 body {
-    background-color: #DFB8BB;
-    width: 1200px;
+    background-color: #ffffff;
+    width: 1920px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -17,30 +17,20 @@ header {
     grid-area: header;
     background-color: #A292B3;
     height: 500px;
-    width: 1200px;
     margin: 0px auto;
-}
-
-h1 {
-    grid-area: h1;
-    font-size: 50px;
-    font-family:  Roboto, Arial;
-    text-transform: uppercase;
-    color: #e6e3e9;
-    margin: 215px auto;
 }
 
 nav {
     grid-area: navbar;
-    background-color: #1E81B1;
+    background-color: #ffffff;
     height: 75px;
 }
 
-#home, #shop, #contact {
+#home, #shop, #contact, #learn, #faq, #about {
     font-size: 16px;
     font-family:  Roboto, Arial;
     text-transform: uppercase;
-    color: #e6e3e9;
+    color: #363633;
     margin: 10px 0px 10px 0px;
     padding: 0px 25px;
     text-decoration: none;
@@ -48,11 +38,37 @@ nav {
 
 main-content {
     grid-area: main;
-    background-color: #e6e3e9;
+    background-color: #ffffff;
+    padding: 50px;
 }
 
 footer {
     grid-area: footer;
-    background-color: #A292B3;
+    background-color: #ffffff;
 }
 
+
+h1 {
+    grid-area: h1;
+    font-size: 50px;
+    font-family:  Roboto, Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: #e6e3e9;
+    margin: 215px auto;
+    float: left;
+}
+
+h2 {
+    font-family: Allura, Georgia;
+    color: #A03782;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-family:  Roboto, Verdana, Tahoma, sans-serif;
+    color: #A03782;
+    font-size: 25px;
+    text-align: left;
+    text-transform: uppercase;
+}
