@@ -83,6 +83,14 @@ h3 {
     text-transform: uppercase;
 }
 
+h4 {
+    font-family:  Roboto, Verdana, Tahoma, sans-serif;
+    color: var(--yellow);
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 footer p {
     font-family:  Amiri, Georgia, serif;
     color: #363633;
