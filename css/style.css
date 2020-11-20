@@ -26,7 +26,6 @@ body {
 
 header {
     grid-area: header;
-    height: 500px;
     margin: 0px auto;
 }
 
@@ -57,6 +56,31 @@ footer {
     background-color:var(--white);
 }
 
+.homepage {
+    display: grid;
+    grid-template: 3 / 1;
+    grid-template-areas: 
+    "box1 box2 box3";
+}
+
+.homepage img {
+    text-align: center;
+}
+
+#box1 {
+    grid-area: box1;
+    justify-items: center;
+}
+
+#box2 {
+    grid-area: box2;
+    justify-items: center;
+}
+
+#box3 {
+    grid-area: box3;
+    justify-items: center;
+}
 
 h1 {
     grid-area: h1;
