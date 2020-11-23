@@ -68,10 +68,11 @@ body {
     font-family:  Roboto, Arial;
     text-transform: uppercase;
     color: var(--text-color);
-    margin: 1em;
-    padding: 1em;
+    margin: 0px;
+    padding: 25px;
     text-decoration: none;
     text-align: center;
+    max-width: 100px;
 }
 
 #item1, #item2, #item3, #item4, #item5, #item6, #item7, a:hover {
@@ -79,16 +80,17 @@ body {
     font-family:  Roboto, Arial;
     text-transform: uppercase;
     color: var(--lilac);
-    margin: 1em;
-    padding: 1em;
+    margin: 0px;
+    padding: 25px;
     text-decoration: none;
     text-align: center;
+    max-width: 100px;
 }
 
 nav {
     grid-area: navbar;
     background-color: var(--white);
-    height: auto;
+    max-height: 100px;
     display: grid;
     grid-template: 13 / 1;
     grid-template-areas: 
