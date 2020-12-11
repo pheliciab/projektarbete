@@ -1,0 +1,96 @@
+:root {
+    --white: #ffffff;
+    --text-color: #363633;
+    --lilac: #B592D3;
+    --electric: #A03782;
+    --yellow: #EBB400;
+    --blue: #1E81B1;
+    --pink: #C83C69;
+    --lime: #6AB008;
+}
+
+body {
+    background-color:var(--white);
+    width: 1920px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "navbar navbar navbar navbar navbar navbar navbar"
+        "header header header header header header header"
+        ". main main main main main ."
+        ". footer footer footer footer footer ."
+    ;
+    margin: 0px auto;
+    background-image: url(../img/bgr/Background_Main_Green.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: var(--lime);
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: var(--lime);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #619920;
+}
+  
+.contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+label {
+    font-size: 16px;
+    font-family: Roboto Condensed, Arial;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text-color);
+    text-decoration: none;
+    text-align: left;
+    max-width: 100px;
+}
+
+input {
+    font-size: 16px;
+    font-family: Amiri, 'Times New Roman', Times, serif;
+    color: var(--text-color);
+    text-decoration: none;
+    text-align: left;
+}
+
+select {
+    font-size: 16px;
+    font-family: Amiri, 'Times New Roman', Times, serif;
+    color: var(--text-color);
+    text-decoration: none;
+    text-align: left;
+}
+
+textarea {
+    font-size: 16px;
+    font-family: Amiri, 'Times New Roman', Times, serif;
+    color: var(--text-color);
+    text-decoration: none;
+    text-align: left;
+}

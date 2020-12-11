@@ -1,0 +1,132 @@
+:root {
+    --white: #ffffff;
+    --text-color: #363633;
+    --lilac: #B592D3;
+    --electric: #A03782;
+    --yellow: #EBB400;
+    --blue: #1E81B1;
+    --pink: #C83C69;
+    --lime: #6AB008;
+}
+
+body {
+    background-image: url(../img/bgr/Background_Main_Yellow.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-image: url(../img/header-promo1.jpg);
+    max-width: 1920px;
+}
+
+section {
+    background-image: url(../img/content_img_1.png);
+    background-size: 1271px auto;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+}
+
+h2 {
+    font-family: Allura, Georgia;
+    color: var(--white);
+    font-size: 100px;
+    text-align: center;
+    margin: 5% 0px;
+}
+
+h3 {
+    font-family: Roboto Condensed, Verdana, Tahoma, sans-serif;
+    color: var(--yellow);
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15%;
+}
+
+h4 {
+    font-family: Roboto Condensed, Verdana, Tahoma, sans-serif;
+    color: var(--electric);
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.ingress {
+    font-family:  Roboto Condensed, Georgia, serif;
+    color: #363633;
+    font-size: 30px;
+    text-align: center;
+}
+
+article {
+    font-family:  Amiri, Georgia, serif;
+    color: #363633;
+    font-size: 15px;
+    text-align: left;
+}
+
+article img {
+    margin: 20px 0px;
+    max-width: 395px;
+}
+
+.aboutpage {
+    display: grid;
+    grid-template: 3 / 5;
+    grid-template-areas: 
+    "box1 box1 box-img"
+    "box2 . ."
+    "box2 box3 ."
+    ". box3 box4"
+    ". . box4";
+    /* justify-items: center; */
+    gap: 35px 35px;
+}
+
+.box1 {
+    grid-area: box1;
+    justify-self: end;
+}
+
+article p {
+    font-family:  Amiri, Georgia, serif;
+    color: #363633;
+    font-size: 15px;
+    text-align: left;
+    justify-content: left;
+}
+
+article h3 {
+    font-family: Roboto Condensed, Verdana, Tahoma, sans-serif;
+    color: var(--yellow);
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 15%;
+}
+
+.box1-img {
+    grid-area: box-img;
+    justify-self: end;
+}
+
+.box2 {
+    grid-area: box2;
+    justify-items: center;
+}
+
+.box3 {
+    grid-area: box3;
+    justify-items: center;
+}
+
+.box4 {
+    grid-area: box4;
+    justify-items: center;
+    width: 100%;
+}
